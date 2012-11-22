@@ -25,11 +25,11 @@ let loaded_matchparen=1
 set nobackup
 set noswapfile
 
-" Key mapping
+" Key Mapping
 noremap j gj
 noremap k gk
-noremap b B
 noremap BB :ls<CR>:buf 
+noremap <C-k> <C-^>
 " inoremap <C-k> <up>
 " inoremap <C-j> <down>
 inoremap <C-h> <left>
